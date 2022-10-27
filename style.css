@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(188, 255, 255);
+    height: 1200px;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+.container{
+    width: 1000px;
+    height: 1000px;
+    background-color: rgb(82, 197, 159);
+    margin: 0 auto;
+}
+
+.computer{
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    padding-left: 160px;
+    padding-top: 100px;
+}
+
+.hasil{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(136, 105, 221);
+    border: 5px solid palevioletred;
+    border-radius: 20%;
+    margin: 0 auto;
+    line-height: 140px;
+    text-align: center;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(6, 44, 66);
+    
+}
+
+li{
+    display: inline-block;
+    padding-top: 150px;
+    padding-left: 100px;
+}
+
+img{
+    border-radius: 100%;
+    border: 3px solid black;
+}
+
+.jempol:hover, .kelingking:hover, .telunjuk:hover, .active{
+    box-shadow: 0 0 5px 15px pink;
+    cursor: pointer;
+}
